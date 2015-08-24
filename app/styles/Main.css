@@ -1,5 +1,6 @@
 .search-container {
-  margin-left: 250px;
+  margin-left: 300px;
+  margin-top: 100px;
 }
 
 .search-container input {
@@ -7,4 +8,19 @@
 }
 .search-container button {
   margin-left: 5px;
+}
+
+.search-container h1 {
+  margin-left: 50px;
+}
+
+li {
+  list-style: none;
+  color: #30418C;
+  background: #F9F9FC;
+  border-bottom: 1px solid #E5E6F1;
+}
+
+.pub-repos {
+  color: #eb8c28;
 }

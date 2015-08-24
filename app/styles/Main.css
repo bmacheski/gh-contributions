@@ -1,0 +1,10 @@
+.search-container {
+  margin-left: 250px;
+}
+
+.search-container input {
+  width: 280px;
+}
+.search-container button {
+  margin-left: 5px;
+}

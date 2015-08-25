@@ -21,6 +21,30 @@ li {
   border-bottom: 1px solid #E5E6F1;
 }
 
-.pub-repos {
+ul {
+  padding-left: 20px !important;
+}
+
+.contrib-list {
+  list-style: none;
+  display: block;
+}
+
+.contrib-list li{
+  display: inline;
+}
+
+.contrib-avatar {
+  height: 75px;
+  margin: 5px;
+}
+
+.pub-repos, .proj-contrib {
   color: #eb8c28;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #356de4;
 }

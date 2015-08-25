@@ -4,6 +4,7 @@ import React from 'react';
 import RepoStore from '../stores/RepoStore';
 import RepoActions from '../actions/RepoActions';
 import RepoItem from './RepoItem';
+import Router from 'react-router';
 
 export default React.createClass({
   getInitialState() {

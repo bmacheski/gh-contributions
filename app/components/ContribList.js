@@ -27,7 +27,7 @@ export default React.createClass({
       <div>
         <h1 className="proj-contrib">Project Contributors</h1>
         <ul className="contrib-list">
-          {this.state.contribs.map(function(contrib) {
+          {this.state.contribs.map((contrib) => {
             return <ContribItem key={contrib.id} contrib={contrib} />
           })}
         </ul>

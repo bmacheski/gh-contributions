@@ -4,7 +4,7 @@ import React from 'react';
 import RepoStore from '../stores/RepoStore';
 import RepoActions from '../actions/RepoActions';
 import RepoItem from './RepoItem';
-import Router from 'react-router';
+import { Router, Link } from 'react-router';
 
 export default React.createClass({
   getInitialState() {
@@ -29,6 +29,7 @@ export default React.createClass({
   render() {
     return (
       <div>
+        <Link to="app"> « Back</Link>
         <h2 className="pub-repos"> Public Repositories </h2>
         <ul> {this.renderRepos()}</ul>
       </div>

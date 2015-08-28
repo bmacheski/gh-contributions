@@ -16,7 +16,7 @@ export default React.createClass({
     return (
       <div className="search-container">
         <h1>Public Repositories</h1>
-        <input type="text" ref="username" />
+        <input type="text" ref="username" placeholder="Enter a GitHub username..."/>
         <button onClick={this.handleSearch}>Search Repos</button>
       </div>
     )

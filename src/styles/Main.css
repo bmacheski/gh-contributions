@@ -56,3 +56,11 @@ a {
 span {
   font-size: 11px;
 }
+
+.repo-outer-container {
+  height: 80px;
+}
+
+.lang-watch-container {
+  margin-top: 20px;
+}

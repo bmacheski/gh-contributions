@@ -7,7 +7,7 @@ export default React.createClass({
   render: function() {
     return (
       <li>
-        <div className="pure-g">
+        <div className="pure-g repo-outer-container">
           <div className="pure-u-2-3">
             <Link to="contribresults" params={{ username: this.props.repo.owner.login, repo: this.props.repo.name }}>
               <h3>{this.props.repo.name}</h3>
@@ -15,7 +15,7 @@ export default React.createClass({
             </Link>
             <p>{this.props.description}</p>
           </div>
-          <div className="pure-u-1-3">
+          <div className="pure-u-1-3 lang-watch-container" >
             <div className="pure-g">
               <div className="pure-u-1-3">
                 <b>{this.props.repo.language}</b>
